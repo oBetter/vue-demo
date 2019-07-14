@@ -1,17 +1,11 @@
 <template>
 	<div class="home">
-		<img alt="Vue logo" src="../assets/logo.png">
-		<HelloWorld msg="Welcome to Your Vue.js App" />
+		这是HOME页面
 	</div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-	name: "home",
-	components: {
-		HelloWorld
-	}
+	name: "home"
 };
 </script>
