@@ -8,11 +8,11 @@
 export default {
 	components: {},
 	data() {
-		return {};
+		return {}
 	}
-};
+}
 </script>
 
 <style scoped lang='less'>
-@import "./css/footer.less";
+@import './css/footer.less';
 </style>

@@ -1,11 +1,11 @@
 <template>
 	<div class="home">
-		这是HOME页面
+		<h1>This is an home page</h1>
 	</div>
 </template>
 
 <script>
 export default {
 	name: "home"
-};
+}
 </script>
