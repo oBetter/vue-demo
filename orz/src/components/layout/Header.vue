@@ -1,6 +1,6 @@
 <template>
 	<div class="header">
-		<a href="/#/" class="logo">LOGO</a>
+		<router-link to="/" class="logo">LOGO</router-link>
 		<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" background-color="#242329" text-color="#fff" active-text-color="#ffd04b" router>
 			<el-menu-item index="/">Home</el-menu-item>
 			<el-menu-item index="/about">About</el-menu-item>
