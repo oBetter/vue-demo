@@ -1,21 +1,40 @@
 <template>
-	<div class="home">
-		<div class="banner"></div>
-		<h1>This is an home page</h1>
+	<div>
+		这是Home首页
 	</div>
 </template>
 
 <script>
 export default {
-	components: {},
-	data() {
-		return {}
+	props: {
+
 	},
-	methods: {}
-}
+	data() {
+		return {
+
+		};
+	},
+	computed: {
+
+	},
+	created() {
+
+	},
+	mounted() {
+
+	},
+	watch: {
+
+	},
+	methods: {
+
+	},
+	components: {
+
+	},
+};
 </script>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 @import './css/home.less';
 </style>
-

@@ -1,6 +1,6 @@
 <template>
     <div>
-      这是About页面
+      这是个人中心首页
     </div>
 </template>
 

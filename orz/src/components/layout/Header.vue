@@ -7,7 +7,6 @@
 			<el-submenu index="" class="user">
 				<template slot="title">pwx609952</template>
 				<el-menu-item index="/personalCenter">个人中心</el-menu-item>
-				<el-menu-item index="/myOrder">我的订单</el-menu-item>
 				<el-menu-item index="" @click="loginOut">注销</el-menu-item>
 			</el-submenu>
 		</el-menu>
