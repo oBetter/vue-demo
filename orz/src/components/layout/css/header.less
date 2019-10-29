@@ -13,8 +13,16 @@
         margin-right: 50px;
         font-size: 18px;
     }
-    /deep/ .el-menu.el-menu--horizontal {
+    .el_menu {
+        display: flex;
         flex-grow: 1;
         border-bottom: none;
+        align-items: center;
+        .user {
+            margin-left: auto;
+            /deep/ .el-submenu__title {
+                border-bottom-width: 0;
+            }
+        }
     }
 }
