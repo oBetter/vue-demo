@@ -1,7 +1,5 @@
 <template>
-	<div>
-		这是Home首页
-	</div>
+	<div>这是Home首页</div>
 </template>
 
 <script>
@@ -18,7 +16,7 @@ export default {
 
 	},
 	created() {
-
+		this.loadData()
 	},
 	mounted() {
 
@@ -27,7 +25,9 @@ export default {
 
 	},
 	methods: {
-
+		loadData() {
+			
+		}
 	},
 	components: {
 
